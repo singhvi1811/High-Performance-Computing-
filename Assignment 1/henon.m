@@ -25,7 +25,6 @@ for i=1 :n
             basin(i,ix)=1; %updates the basin matrix values to 1 wherever the norm croses the lockout value
         end            
 end
-
 surf(x0,y0,basin,'edgecolor','none');
 view(0,90);
 grid on
